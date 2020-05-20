@@ -14,11 +14,12 @@ body {
 
 .mostrar {
     background-color: rgb(255, 0, 0);
-    z-index: -1;
+    transform: scale(1.4);
+    transition: all .6s cubic-bezier(.29,3.83,.31,-1.14);
 }
 
 .card {
-    background-color: #022C51 !important;
+    background-color: rgb(1, 39, 73) !important;
 }
 
 .title1,
