@@ -80,10 +80,21 @@ right: 15%;
     @media screen and (max-width:524px){
 
         .contFotoPerfil{
-            right: 36%;
+            right: 27%;
         }
+
         .txtPerfil{
-            right: 22%;
+            display: none;
+        }
+    }
+    @media screen and (max-width:375px){
+
+        .contFotoPerfil{
+            right: 25%;
+        }
+
+        .txtPerfil{
+            display: none;
         }
     }
 @media screen and (max-width:480px){
@@ -97,7 +108,7 @@ right: 15%;
     }
     .contFotoPerfil{
         position: absolute;
-        right: 38%;
+        right: 27%;
     }
     .txtPerfil{
         position: absolute;
@@ -107,6 +118,7 @@ right: 15%;
         width: 15%;
     }
 }
+
 
 }
 
