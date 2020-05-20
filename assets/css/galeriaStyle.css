@@ -87,10 +87,6 @@ body {
     width: 150px !important;
 }
 
-.pagination {
-    margin-left: 500px;
-}
-
 .page-link{
     background-color: #022C51 !important;
     color: #F7A500;
@@ -104,9 +100,6 @@ body {
 
 
 @media screen and (max-width: 540px){
-     .pagination{
-         margin-left: 10px;
-     }
      .video1, .video2, .video4, .video3{
          margin-left: initial;
      }
@@ -121,8 +114,6 @@ body {
 }
 
 @media screen and (max-width:728px){
-    .pagination{
-        margin-left: 200px;
     }
     .video1, .video2, .video4, .video3{
         margin-left: 0px;
@@ -137,11 +128,11 @@ body {
     width: 20px;
     margin: 10px 15px;
 }
-}
+
 
 @media screen and (max-width:1024px){
-    .pagination{
-        margin-left: 200px;
+/*     .pagination{
+        margin-left: 200px; */
     }
     .video1, .video2, .video4, .video3{
         margin-left: 0px;
@@ -156,5 +147,13 @@ body {
     width: 20px;
     margin: 10px 15px;
 }
+
+
+.navPage {
+    display: flex;
+    justify-content: center;
 }
 
+.pagination {
+    justify-content: center;
+}
