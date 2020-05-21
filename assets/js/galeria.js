@@ -39,6 +39,8 @@ for (let i = 0; i < btnBorrar.length; i+=1) {
 }
 
 
+/* const meGustaguardados = JSON.stringify();
+localStorage.setItem('btnNoGusta', meGustaguardados) */
 
 
 /* const obtenerLocal = () */

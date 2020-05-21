@@ -115,7 +115,6 @@ const funcBorrar = (e)=>{
     const padre = e.target.closest('.amigos')
     padre.remove()
     console.log(padre)
-
     /* const tarjetaPadre = document.querySelector('.padre')
     const tarjetaHijo = document.querySelector('.hijo')
     const eliminarT = tarjetaPadre.removeChild(tarjetaHijo) */
@@ -127,4 +126,5 @@ const funcBorrar = (e)=>{
 
 for (let i = 0; i < btnBorrar.length; i+=1) {
     btnBorrar[i].addEventListener('click', funcBorrar) 
+    
 }
