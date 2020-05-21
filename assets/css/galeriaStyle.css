@@ -8,6 +8,13 @@ body {
     background-color: rgb(255, 255, 255) !important;
 }
 
+.containerCards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
 .icDislike{
     background-color: #022C51;
 }
@@ -22,9 +29,14 @@ body {
     background-color: rgb(1, 39, 73) !important;
 }
 
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
 .title1,
 .title2 {
-    margin: 30px 10px;
+    margin: 30px;
     font-family: 'Courgette', cursive;
 }
 
@@ -34,6 +46,8 @@ body {
 }
 
 .linkTitle{
+    display: flex;
+    justify-items: center;
     text-decoration: none;
     color: #022C51;
 }
@@ -92,10 +106,15 @@ body {
     color: #F7A500;
 }
 
+.video{
+    display:flex;
+    justify-content: center;
+}
+
  .video1, .video2, .video4, .video3{
     height: 600px;
     width: 400px;
-    margin-left: 80px;
+    justify-content: space-between;
  }
 
 

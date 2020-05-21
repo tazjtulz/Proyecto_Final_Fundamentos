@@ -104,7 +104,6 @@
 }
 
 
-
 .card {
     background-color: rgb(2, 44, 81);
     padding: 10px;
@@ -112,6 +111,13 @@
     width: 480px;
     border-radius: 30px;
     margin: 10px;
+}
+
+.card-body {
+    padding: 0 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 @media screen and (max-width: 375px) {
@@ -126,6 +132,7 @@
 
 .card-body {
     padding: 0 !important;
+    align-items: center;
 }
 
 .cardImg {
@@ -134,7 +141,7 @@
 }
 
 .card-title {
-    margin-top: 35px;
+    margin-top: 15px;
     color: rgb(236, 236, 236);
     font-family: 'Titillium Web', sans-serif;
     font-size: 22px;
@@ -147,7 +154,7 @@
 
     .card-title {
         margin-left: 0px;
-        margin-top: 20px;
+        margin-top: 10px;
         font-size: 18px;
         margin-bottom: 0px;
     }
@@ -172,7 +179,7 @@
     }
 
     .text-muted {
-        margin-left: 60px;
+        margin-left: 40px;
     }
 
     .card-title,
@@ -183,15 +190,15 @@
 }
 
 .iconImg {
-    width: 40px;
-    margin-top: 50px;
+    width: 30px;
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 375px) {
     .iconImg {
         width: 20px;
         margin-left: 10px;
-        display: none;
+/*         display: none; */
     }
 
     .iconImg:hover {
@@ -204,7 +211,8 @@
 @media screen and (max-width: 768px) {
     .iconImg {
         width: 20px;
-        display: none;
+/*         display: none; */
+margin-left: 45px;
     }
 
     .iconImg:hover {
@@ -249,4 +257,8 @@
 .page-link {
     background-color: #022C51 !important;
     color: #F7A500;
+}
+
+.eliminar{
+    display: none;
 }
