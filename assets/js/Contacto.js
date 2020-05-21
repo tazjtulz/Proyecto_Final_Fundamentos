@@ -22,6 +22,10 @@ btnSubmit.addEventListener('click', valForm)
 console.log(valForm)
 
 
+
+
+
+
 // INTENTO FALLIDO 1
 /* const funAlert = alert("Gracias, nos pondremos en contacto contigo lo más pronto posible.") */
 //btnSubmit.addEventListener('submit', alert("Gracias, nos pondremos en contacto contigo lo más pronto posible."))
