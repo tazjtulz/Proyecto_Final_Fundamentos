@@ -13,6 +13,11 @@
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
 }
+
+body{
+  background-color: black;
+}
+
 section{
     float:left;
     width:100%;
