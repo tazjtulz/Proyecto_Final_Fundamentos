@@ -1,13 +1,11 @@
-const popUpPrototipo = alert('Estimado cliente, te recordamos que este es un prototipo en desarrollo del requerimiento que nos hiciste. Algunas funcionalidades no se encuentran aún disponibles. Contactacta con nuestro agente comercial para mayor información. Gracias por preferirnos KREATION')
-
-
-const btnSubmit = document.querySelector('#button')
+/* const popUpPrototipo = alert('Estimado cliente, te recordamos que este es un prototipo en desarrollo del requerimiento que nos hiciste. Algunas funcionalidades no se encuentran aún disponibles. Contactacta con nuestro agente comercial para mayor información. Gracias por preferirnos KREATION')
+ */
+const btnSubmit = document.querySelector('button')
 console.log(btnSubmit)
 
 // INTENTO QUE FUNCIONO
 const valForm = () =>{
-    
-    
+       
     const inputCheck = document.querySelector('#check');
     console.log(inputCheck.checked)
 
@@ -20,11 +18,6 @@ const valForm = () =>{
 
 btnSubmit.addEventListener('click', valForm)
 console.log(valForm)
-
-
-
-
-
 
 // INTENTO FALLIDO 1
 /* const funAlert = alert("Gracias, nos pondremos en contacto contigo lo más pronto posible.") */

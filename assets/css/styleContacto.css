@@ -52,7 +52,6 @@
     font-size: 14px;
 
     font-family: 'Titillium Web', sans-serif;
-
 }
 
 .contInput textarea {
@@ -157,4 +156,26 @@ nav{
     background:linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
     margin-right: 40px;
 }
+}
+
+
+
+/* Aquì van los estilos del Alert */
+
+.titleAlert{
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+    color: #022C51;
+}
+
+.textAlert{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+
+}
+
+.button{
+    height: 10px;
+    font-family: 'Courgette', cursive;  
+    color: #F7A500;
 }
