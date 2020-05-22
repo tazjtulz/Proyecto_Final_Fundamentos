@@ -26,3 +26,25 @@ eLatido.addEventListener('click', funcLatido);
         menuToggle.classList.toggle('menuOpen');    
         
 }
+
+/* LOCAL STORAGE */
+
+/* const btnRegistrar = document.getElementById('btnReg')
+console.log(btnRegistrar) */
+
+
+
+
+const formReg = document.querySelector('#formReg')
+console.log(formReg)
+
+formReg.addEventListener('submit', ()=>{
+
+ const name = docuent.querySelector('#user').value;
+ const password = document.getElementById('password1').value;
+ const passwordVal = document.querySelector('#password2').value;
+
+    localStorage.setItem('nombre', name)
+    localStorage.setItem('contraseña', password)
+    localStorage.setItem('contraseñaVal', passwordVal)
+})
