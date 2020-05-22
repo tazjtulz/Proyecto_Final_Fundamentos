@@ -315,6 +315,24 @@ color:#022C51;
   border: 0;
 }
 
+#slideshow{
+  background: linear-gradient(to right, rgb(2,44,81,.3),rgb(247,165,0,.3));
+  padding: 10px 20px;
+  border-radius: 40px;
+}
+#publicaciones{
+  background: linear-gradient(to right, rgb(2,44,81,.3),rgb(247,165,0,.3));
+  padding: 10px 20px;
+  border-radius: 40px;
+  margin: 10px;
+}
+
+#hobbies{
+  background: linear-gradient(to right, rgb(2,44,81,.3),rgb(247,165,0,.3));
+  padding: 10px 20px;
+  border-radius: 40px;
+  margin: 10px;
+}
 
 
 
