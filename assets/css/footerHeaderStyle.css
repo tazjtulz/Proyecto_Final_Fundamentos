@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.FT{
+    font-family: 'Courgette', cursive;
+}
+
+
 /* HEADER */
 
 .headerHS{
@@ -15,12 +24,88 @@
 
     position: relative;
     z-index: 1000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
 }
 
 .logHeader{
     width: 250px;
 }
 
+
+.contFotoPerfil{
+
+    width: 10%;
+    position: absolute;
+right: 23%;
+
+
+
+
+}
+.txtPerfil{
+    color: white;
+    font-weight: 400;
+    margin-left: 20px;
+    text-align: center;
+    position: absolute;
+right: 15%;
+}
+.fotoPerfil{
+    width: 100%;
+    border-radius: 75px;
+}
+
+@media screen and (max-width:918px){
+
+    .contFotoPerfil{position: absolute;
+        right: 30%;
+    }
+    .txtPerfil{
+        right: 20%;
+    }
+    @media screen and (max-width:708px){
+
+        .contFotoPerfil{
+            right: 37%;
+        }
+        .txtPerfil{
+            right: 25%;
+        }
+    }
+
+    @media screen and (max-width:656px){
+
+        .contFotoPerfil{
+            right: 39%;
+        }
+        .txtPerfil{
+            right: 22%;
+        }
+    }
+    @media screen and (max-width:524px){
+
+        .contFotoPerfil{
+            right: 27%;
+        }
+
+        .txtPerfil{
+            display: none;
+        }
+    }
+    @media screen and (max-width:375px){
+
+        .contFotoPerfil{
+            right: 25%;
+        }
+
+        .txtPerfil{
+            display: none;
+        }
+    }
 @media screen and (max-width:480px){
 
     .headerHS{
@@ -30,6 +115,20 @@
     .logHeader{
         width: 200px;
     }
+    .contFotoPerfil{
+        position: absolute;
+        right: 27%;
+    }
+    .txtPerfil{
+        position: absolute;
+        right: 20%;
+    }
+    .contFotoPerfil{
+        width: 15%;
+    }
+}
+
+
 }
 
 .header::after{
@@ -220,3 +319,5 @@
     padding-right: 10px;
     cursor: pointer;
 }
+
+

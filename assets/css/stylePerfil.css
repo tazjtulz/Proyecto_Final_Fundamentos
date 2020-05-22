@@ -13,6 +13,11 @@
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
 }
+
+body{
+  background-color: white;
+}
+
 section{
     float:left;
     width:100%;
@@ -63,7 +68,7 @@ h1 a{color:#131313; font-weight:bold;}
   height:50%;
   border-radius:0 0 5px 5px;
   position: relative;
-  z-index: 9999;
+  z-index: 9;
 }
 .profile-card-3 .card-content::before {
     content: '';
